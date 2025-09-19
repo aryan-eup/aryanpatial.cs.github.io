@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    height: 60px;
+    align-items: center;
+    justify-content: space-evenly
+}
+.amz_logo{
+    height: 50px;
+    width: 100px;
+}
+.amz_img{
+    background-image: url(amazon_logo.jpg);
+    height: 50px;
+    width: 100px;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border: 0.5px solid transparent;
+}
+.border:hover{
+    border: 0.5px solid white;
+}
+.deliver{
+    color: #cccccc;
+    font-size: 0.7rem;
+    margin-left: 15px;
+    cursor:pointer
+    
+}
+
+.india{
+    color: white;
+    font-size: 1rem;
+    margin-left: 3px;
+    
+}
+.img_india{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.nav_search{
+    display: flex;
+    background-color: pink;
+    height: 40px;
+    width:800px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+.nav_search:hover {
+    border: 3px solid orange;
+}
+
+.select{
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px ;
+    text-align: center;
+    border: none;
+}
+.search_item{
+    width:100%;
+    border: none;
+    font-size: 1rem;
+}
+.search_img{
+    display: flex;
+    width:45px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #ecab55;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px ;
+    color: #0f1111;
+}
+.return{
+    font-size: 0.7rem;
+    padding: 5px;
+}
+.and_order{
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 5px;
+}
+.cart_box{
+    display: flex;
+    font-size: 30px;
+    padding: 7px;
+}
+.order{
+    font-size: 14px;
+    margin-top: 12px;
+}
+.panl{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+   
+    
+}
+.panl-opt p{
+    display: inline;
+    margin-left: 15px;
+}
+.panl-opt{
+    width: 70%;
+    margin-left: 5px;
+    font-size: 0.85rem;
+}
